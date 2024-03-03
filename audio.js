@@ -27,7 +27,7 @@ playPauseBtn.addEventListener('click', () => {
     if (audio.paused) {
       audio.play();
       playPauseBtn.textContent = 'Pause';
-      nowPlayingElement.textContent = 'Stargaze - Sophia Frame'; // Update now playing message
+      nowPlayingElement.textContent = 'Stargaze Sophia Frame'; // Update now playing message
     } else {
       audio.pause();
       playPauseBtn.textContent = 'Play';
