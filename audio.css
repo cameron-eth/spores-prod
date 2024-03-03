@@ -1,0 +1,35 @@
+.custom-audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 15em
+  }
+  
+  .custom-audio-player button {
+    background-image: linear-gradient(to right, #618e71, #afa0c4); /* Gradient effect */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+  
+  .custom-audio-player input[type="range"] {
+    width: 100%;
+}
+  
+  .custom-audio-player span {
+    min-width: 40px;
+    text-align: center;
+}
+  
+  #nowPlaying {
+    color: white;
+    margin-top: 10px;
+}
