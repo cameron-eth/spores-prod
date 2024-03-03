@@ -39,3 +39,4 @@ playPauseBtn.addEventListener('click', () => {
 seekSlider.addEventListener('input', () => {
   audio.currentTime = seekSlider.value;
 });
+
